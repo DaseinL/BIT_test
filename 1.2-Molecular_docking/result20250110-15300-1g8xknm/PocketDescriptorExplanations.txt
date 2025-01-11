@@ -1,0 +1,42 @@
+----- Abbreviations and explanations of calculated descriptors of DoGSite3 -----
+
+name: pocket identifier
+lig_cov: percentage of ligand covered by the predicted pocket
+poc_cov: percentage of the pocket covered by the co-crystallized ligand
+lig_name: ligand identifier
+4A_crit: 1 or true if for a specific protein structure the geometric center of the largest pocket lies within 4 Å of any
+         ligand atom (Weisel criterion[1])
+ligSASRatio: bound ligand solvent accessible surface divided by unbound ligand solvent accessible surface volume pocket
+             volume in Å^3 calculated via grid points
+enclosure: enclosure of pocket calculated via 1-(lid/hull) surface pocket surface in Å^2 calculated via solvent
+           accessible surface area of pocket atoms
+lipoSurface: pocket lipophilic surface in Å^2 calculated via solvent accessible surface area of pocket atoms
+depth: depth of the pocket in Å calculated via grid points and a depth first search
+surf/vol: ratio of surface to volume calculated via variables above
+lid/hull: ratio of lid to hull calculated via grid points
+ellVol: ellipsoid volume of pocket
+ell c/a, ell b/a: ellipsoid main axes ratios, with a > b > c
+surfGPs: number of grid points representing the surface of the pocket
+lidGPs: number of grid points representing the lid of the pocket
+hullGPs: sum of surface and lid grid points
+spoc: number of subpockets
+siteAtms: number of all pocket atoms
+heavyAtms: number of all pocket heavy atoms
+accept: number of solvent accessible hydrogen bond acceptors
+donor: number of solvent accessible hydrogen bond donors
+aromat: number of all aromatic atoms
+hydrophobicity: hydrophobicity of pocket calculated via hydrophobic pocket atoms
+metal: number of all metal ions
+Cs, Ns, Os, Ss, Xs: number of elements of specific type; types: C, N, O, S or other (X)
+acidicAA: number of all acidic amino acids in pocket
+basicAA: number of all basic amino acids in pocket
+polarAA: number of all polar amino acids in pocket
+apolarAA: number of all apolar amino acids in pocket
+sumAA: number of amino acids in pocket
+ALA, ARG, ...: number of amino acids in pocket; 3-letter code of 20 amino acid types
+A, DA, ...: number of nucleic acids in pocket
+UNK: number of unknown amino acids in pocket
+
+
+[1]: Weisel, M.; Proschak, E.; Schneider, G. PocketPicker: Analysis of ligand binding-sites with shape descriptors.
+     Chem. Cent. J. 2007, 1, 7.
