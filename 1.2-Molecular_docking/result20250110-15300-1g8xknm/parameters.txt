@@ -1,3 +1,0 @@
-Selected chain: all
-Analysis detail: Pocket(s)
-Ligand bias: off

@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide-8udf_cognate.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR

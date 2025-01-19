@@ -1,0 +1,1756 @@
+Command: "C:\Program Files\Schrodinger2024-2\mmshare-v6.6\bin\Windows-x64\..\..\python\scripts\prepwizard_driver.py" proteinprep_1.maegz proteinprep_1-out.maegz -fillsidechains -disulfides -assign_all_residues -rehtreat -max_states 1 -epik_pH 7.4 -epik_pHt 2.0 -antibody_cdr_scheme Kabat -samplewater -propka_pH 7.4 -f S-OPLS -rmsd 0.3 -watdist 5.0
+Number of input structures: 1
+Preparing structure: 8UDF
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  Processing all residues
+No CCD entry found or failed to read entry for WB0 
+  Assigned the following bonds (format: atom1, atom2, order): {(2349, 2356, 2), (2343, 2359, 2), (2355, 2357, 2), (2367, 2375, 3), (2350, 2351, 2), (2337, 2354, 2), (2340, 2366, 2), (2344, 2363, 2), (2338, 2339, 2), (2335, 2364, 2), (2336, 2365, 2), (2345, 2353, 2), (2346, 2347, 2)}
+Removing and re-adding hydrogens...
+Treating metals...
+[running at reduced cpu priority]
+Creating di-sulfur bonds...
+Annotating antibody regions...
+Detecting missing residue atoms...
+  No missing side chains found
+Finding het groups (for Epik)...
+Processing 4 het groups...
+  Using EpikX with pH: 7.4
+        and pH Range: 2.0
+  Max het states per protein: 10
+Epik completed; filtering undesired states...
+Number of hets: 4
+Keeping max states: 1
+het: 1 applied # states: 3
+het: 2 applied # states: 1
+het: 3 applied # states: 1
+het: 4 applied # states: 1
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
+  will sample waters
+  Using PROPKA with pH: 7.4
+  RUNNING: "C:\Program Files\Schrodinger2024-2\utilities\protassign.exe" C:\Users\Clar\AppData\Local\Schrodinger\tmp\proteinprep_1\proteinprep_1-001\Optimize_H-bond_Assignments.maegz Optimize_H-bond_Assignments-out.maegz -NOJOBID -propka_pH 7.4
+Running PROPKA to get pKas
+
+Clustering hydrogen bond network ...
+Found 85 clusters
+
+Cluster 1 (156):
+    A:GLN 325
+    A:ASN 334
+    A:GLN 375
+    A:GLN 389
+    A:ASN 390
+    A:GLN 416
+    A:ASN 425
+    A:GLN 433
+    A:ASN 439
+    A:ASN 448
+    A:ASN 457
+    A:ASN 486
+    A:GLN 495
+    A:ASN 509
+    A:ASN 544
+    A:GLN 605
+    A:LYS 311
+    A:LYS 394
+    A:LYS 443
+    A:HID 347
+    A:HID 470
+    A:HID 552
+    A:THR 327: HG1
+    A:THR 330: HG1
+    A:THR 331: HG1
+    A:THR 332: HG1
+    A:CYS 350: HG 
+    A:TYR 360: HH 
+    A:CYS 391: HG 
+    A:THR 417: HG1
+    A:SER 419: HG 
+    A:THR 441: HG1
+    A:CSO 451: HD 
+    A:SER 453: HG 
+    A:SER 464: HG 
+    A:CYS 466: HG 
+    A:THR 475: HG1
+    A:THR 481: HG1
+    A:THR 502: HG1
+    A:THR 504: HG1
+    A:THR 505: HG1
+    A:TYR 545: HH 
+    A:THR 549: HG1
+    A:SER 590: HG 
+    A:THR 598: HG1
+    A:ASP 482
+    A:GLU 484
+    A:ASP 493
+    A:ASP 503
+    A:GLU 546
+    A:GLU 594
+    A:ASP 595
+    A:GLU 596
+    A:ASP 601
+    A:HOH 802
+    A:HOH 806
+    A:HOH 807
+    A:HOH 808
+    A:HOH 810
+    A:HOH 812
+    A:HOH 814
+    A:HOH 817
+    A:HOH 819
+    A:HOH 820
+    A:HOH 824
+    A:HOH 825
+    A:HOH 826
+    A:HOH 827
+    A:HOH 830
+    A:HOH 834
+    A:HOH 835
+    A:HOH 836
+    A:HOH 837
+    A:HOH 839
+    A:HOH 841
+    A:HOH 843
+    A:HOH 846
+    A:HOH 847
+    A:HOH 848
+    A:HOH 850
+    A:HOH 852
+    A:HOH 853
+    A:HOH 855
+    A:HOH 859
+    A:HOH 861
+    A:HOH 863
+    A:HOH 866
+    A:HOH 867
+    A:HOH 868
+    A:HOH 875
+    A:HOH 877
+    A:HOH 878
+    A:HOH 879
+    A:HOH 880
+    A:HOH 881
+    A:HOH 888
+    A:HOH 892
+    A:HOH 893
+    A:HOH 895
+    A:HOH 899
+    A:HOH 900
+    A:HOH 903
+    A:HOH 905
+    A:HOH 906
+    A:HOH 908
+    A:HOH 911
+    A:HOH 912
+    A:HOH 916
+    A:HOH 918
+    A:HOH 920
+    A:HOH 922
+    A:HOH 925
+    A:HOH 927
+    A:HOH 929
+    A:HOH 936
+    A:HOH 937
+    A:HOH 939
+    A:HOH 944
+    A:HOH 945
+    A:HOH 946
+    A:HOH 947
+    A:HOH 949
+    A:HOH 953
+    A:HOH 956
+    A:HOH 957
+    A:HOH 959
+    A:HOH 961
+    A:HOH 962
+    A:HOH 963
+    A:HOH 966
+    A:HOH 967
+    A:HOH 968
+    A:HOH 969
+    A:HOH 970
+    A:HOH 971
+    A:HOH 976
+    A:HOH 979
+    A:HOH 982
+    A:HOH 988
+    A:HOH 991
+    A:HOH 993
+    A:HOH 994
+    A:HOH 995
+    A:HOH 998
+    A:HOH 999
+    A:HOH 1001
+    A:HOH 1002
+    A:HOH 1004
+    A:HOH 1007
+    A:HOH 1010
+    A:HOH 1011
+    A:HOH 1013
+    A:HOH 1017
+    A:HOH 1020
+    A:HOH 1021
+    A:HOH 1022
+Cluster 2 (3):
+    A:ASN 357
+    A:HOH 803
+    A:HOH 896
+Cluster 3 (4):
+    A:ASN 359
+    A:ASP 362
+    A:HOH 931
+    A:HOH 960
+Cluster 4 (18):
+    A:ASN 369
+    A:ASN 371
+    A:HID 370
+    A:HID 386
+    A:SER 368: HG 
+    A:HOH 821
+    A:HOH 838
+    A:HOH 845
+    A:HOH 874
+    A:HOH 914
+    A:HOH 928
+    A:HOH 934
+    A:HOH 938
+    A:HOH 965
+    A:HOH 978
+    A:HOH 984
+    A:HOH 985
+    A:HOH 992
+Cluster 5 (1):
+    A:ASN 378
+Cluster 6 (3):
+    A:GLN 380
+    A:HOH 816
+    A:HOH 869
+Cluster 7 (4):
+    A:ASN 401
+    A:CYS 322: HG 
+    A:HOH 872
+    A:HOH 989
+Cluster 8 (6):
+    A:GLN 413
+    A:HOH 886
+    A:HOH 909
+    A:HOH 941
+    A:HOH 952
+    A:HOH 964
+Cluster 9 (9):
+    A:GLN 498
+    A:THR 496: HG1
+    A:HOH 854
+    A:HOH 891
+    A:HOH 910
+    A:HOH 913
+    A:HOH 997
+    A:HOH 1008
+    A:HOH 1016
+Cluster 10 (5):
+    A:ASN 520
+    A:CYS 606: HG 
+    A:HOH 809
+    A:HOH 857
+    A:HOH 986
+Cluster 11 (7):
+    A:ASN 527
+    A:THR 530: HG1
+    A:SER 573: HG 
+    A:ASP 569
+    A:HOH 829
+    A:HOH 860
+    A:HOH 885
+Cluster 12 (3):
+    A:ASN 534
+    A:HOH 972
+    A:HOH 981
+Cluster 13 (1):
+    A:ASN 537
+Cluster 14 (5):
+    A:GLN 550
+    A:ASP 554
+    A:HOH 890
+    A:HOH 990
+    A:HOH 1018
+Cluster 15 (3):
+    A:GLN 562
+    A:HOH 815
+    A:HOH 942
+Cluster 16 (3):
+    A:GLN 579
+    A:ASN 580
+    A:GLU 576
+Cluster 17 (2):
+    A:ASN 583
+    A:HOH 818
+Cluster 18 (7):
+    A:LYS 318
+    A:ASP 461
+    A:HOH 801
+    A:HOH 901
+    A:HOH 924
+    A:HOH 977
+    A:HOH 1019
+Cluster 19 (2):
+    A:LYS 367
+    A:HOH 831
+Cluster 20 (1):
+    A:LYS 396
+Cluster 21 (1):
+    A:LYS 403
+Cluster 22 (1):
+    A:LYS 406
+Cluster 23 (1):
+    A:LYS 408
+Cluster 24 (1):
+    A:LYS 542
+Cluster 25 (2):
+    A:LYS 575
+    A:THR 531: HG1
+Cluster 26 (6):
+    A:HID 469
+    A:HID 478
+    A:SER 450: HG 
+    A:TYR 467: HH 
+    A:GLU 472
+    A:HOH 873
+Cluster 27 (1):
+    A:SER 307: HG 
+Cluster 28 (3):
+    A:SER 316: HG 
+    A:GLU 320
+    A:HOH 864
+Cluster 29 (1):
+    A:CYS 328: HG 
+Cluster 30 (7):
+    A:TYR 343: HH 
+    A:THR 404: HG1
+    A:TYR 407: HH 
+    A:ASP 339
+    A:HOH 871
+    A:HOH 974
+    A:HOH 1015
+Cluster 31 (1):
+    A:CYS 344: HG 
+Cluster 32 (2):
+    A:THR 351: HG1
+    A:ASP 354
+Cluster 33 (1):
+    A:SER 352: HG 
+Cluster 34 (4):
+    A:SER 387: HG 
+    A:HOH 858
+    A:HOH 983
+    A:HOH 1003
+Cluster 35 (2):
+    A:THR 399: HG1
+    A:ASP 398
+Cluster 36 (2):
+    A:CYS 423: HG 
+    A:HOH 851
+Cluster 37 (2):
+    A:TYR 424: HH 
+    A:HOH 840
+Cluster 38 (4):
+    A:SER 427: HG 
+    A:HOH 919
+    A:HOH 923
+    A:HOH 935
+Cluster 39 (1):
+    A:SER 429: HG 
+Cluster 40 (1):
+    A:TYR 432: HH 
+Cluster 41 (1):
+    A:CYS 434: HG 
+Cluster 42 (1):
+    A:SER 445: HG 
+Cluster 43 (3):
+    A:TYR 460: HH 
+    A:ASP 459
+    A:HOH 948
+Cluster 44 (1):
+    A:CYS 462: HG 
+Cluster 45 (1):
+    A:TYR 488: HH 
+Cluster 46 (1):
+    A:THR 507: HG1
+Cluster 47 (2):
+    A:TYR 515: HH 
+    A:SER 560: HG 
+Cluster 48 (1):
+    A:THR 532: HG1
+Cluster 49 (1):
+    A:TYR 543: HH 
+Cluster 50 (1):
+    A:THR 563: HG1
+Cluster 51 (1):
+    A:CYS 571: HG 
+Cluster 52 (5):
+    A:THR 586: HG1
+    A:ASP 522
+    A:HOH 844
+    A:HOH 889
+    A:HOH 932
+Cluster 53 (1):
+    A:SER 607: HG 
+Cluster 54 (2):
+    A:ASP 340
+    A:HOH 832
+Cluster 55 (1):
+    A:GLU 353
+Cluster 56 (1):
+    A:GLU 361
+Cluster 57 (2):
+    A:ASP 535
+    A:HOH 805
+Cluster 58 (1):
+    A:ASP 551
+Cluster 59 (2):
+    A:HOH 804
+    A:HOH 828
+Cluster 60 (4):
+    A:HOH 811
+    A:HOH 915
+    A:HOH 958
+    A:HOH 1005
+Cluster 61 (1):
+    A:HOH 813
+Cluster 62 (5):
+    A:HOH 822
+    A:HOH 849
+    A:HOH 973
+    A:HOH 980
+    A:HOH 1014
+Cluster 63 (4):
+    A:HOH 823
+    A:HOH 933
+    A:HOH 996
+    A:HOH 1006
+Cluster 64 (1):
+    A:HOH 833
+Cluster 65 (1):
+    A:HOH 842
+Cluster 66 (2):
+    A:HOH 856
+    A:HOH 894
+Cluster 67 (1):
+    A:HOH 862
+Cluster 68 (1):
+    A:HOH 865
+Cluster 69 (1):
+    A:HOH 870
+Cluster 70 (2):
+    A:HOH 876
+    A:HOH 882
+Cluster 71 (1):
+    A:HOH 883
+Cluster 72 (1):
+    A:HOH 884
+Cluster 73 (2):
+    A:HOH 887
+    A:HOH 904
+Cluster 74 (1):
+    A:HOH 897
+Cluster 75 (4):
+    A:HOH 898
+    A:HOH 950
+    A:HOH 951
+    A:HOH 955
+Cluster 76 (1):
+    A:HOH 902
+Cluster 77 (2):
+    A:HOH 907
+    A:HOH 1012
+Cluster 78 (1):
+    A:HOH 917
+Cluster 79 (1):
+    A:HOH 921
+Cluster 80 (2):
+    A:HOH 926
+    A:HOH 987
+Cluster 81 (2):
+    A:HOH 930
+    A:HOH 975
+Cluster 82 (2):
+    A:HOH 940
+    A:HOH 1009
+Cluster 83 (1):
+    A:HOH 943
+Cluster 84 (1):
+    A:HOH 954
+Cluster 85 (1):
+    A:HOH 1000
+
+Optimizing cluster #1 ...
+      Stage 1: Sequential iteration with hybridization
+        Best solution after Stage 1: -243.37801144166548
+      Stage 2: Diversification of existing solutions
+        Best solution after Stage 2: -252.60834541901775
+      Stage 3: Recombination of existing solutions
+        Best solution after Stage 3: -252.60834541901775
+Lowest energy: -252.6083
+Assignments:
+  A:GLN 325       -> No Flip
+  A:ASN 334       -> No Flip
+  A:GLN 375       -> No Flip
+  A:GLN 389       -> No Flip
+  A:ASN 390       -> No Flip
+  A:GLN 416       -> No Flip
+  A:ASN 425       -> Flip
+  A:GLN 433       -> No Flip
+  A:ASN 439       -> No Flip
+  A:ASN 448       -> No Flip
+  A:ASN 457       -> No Flip
+  A:ASN 486       -> No Flip
+  A:GLN 495       -> No Flip
+  A:ASN 509       -> No Flip
+  A:ASN 544       -> No Flip
+  A:GLN 605       -> No Flip
+  A:LYS 311       -> Stagger (pKa = 10.85)
+  A:LYS 394       -> Stagger (pKa = 9.86)
+  A:LYS 443       -> Stagger (pKa = 10.21)
+  A:HID 347       -> HID (pKa = 1.91)
+  A:HID 470       -> Flip HIE (pKa = 2.77)
+  A:HID 552       -> HIE (pKa = 5.47)
+  A:THR 327: HG1  -> Orientation 2/8
+  A:THR 330: HG1  -> Stagger 3 4/4
+  A:THR 331: HG1  -> Orientation 1/5
+  A:THR 332: HG1  -> Stagger 3 9/9
+  A:CYS 350: HG   -> Orientation 1/5 (pKa = 11.33)
+  A:TYR 360: HH   -> Orientation 1/3 (pKa = 15.48)
+  A:CYS 391: HG   -> Orientation 2/5 (pKa = 11.69)
+  A:THR 417: HG1  -> Orientation 1/8
+  A:SER 419: HG   -> Orientation 2/9
+  A:THR 441: HG1  -> Orientation 1/8
+  A:CSO 451: HD   -> Orientation 5/5
+  A:SER 453: HG   -> Orientation 1/6
+  A:SER 464: HG   -> Orientation 6/12
+  A:CYS 466: HG   -> Stagger 3 5/5 (pKa = 12.76)
+  A:THR 475: HG1  -> Orientation 3/5
+  A:THR 481: HG1  -> Stagger 1 5/6
+  A:THR 502: HG1  -> Stagger 1 2/4
+  A:THR 504: HG1  -> Default 2/4
+  A:THR 505: HG1  -> Orientation 5/10
+  A:TYR 545: HH   -> Default 2 2/2 (pKa = 12.56)
+  A:THR 549: HG1  -> Orientation 7/10
+  A:SER 590: HG   -> Orientation 5/10
+  A:THR 598: HG1  -> Orientation 10/12
+  A:ASP 482       -> Charged (pKa = 3.67)
+  A:GLU 484       -> Charged (pKa = 4.88)
+  A:ASP 493       -> Charged (pKa = 4.49)
+  A:ASP 503       -> Charged (pKa = 3.53)
+  A:GLU 546       -> Charged (pKa = 5.93)
+  A:GLU 594       -> Charged (pKa = 4.74)
+  A:ASP 595       -> Charged (pKa = 3.00)
+  A:GLU 596       -> Charged (pKa = 5.40)
+  A:ASP 601       -> Charged (pKa = 4.81)
+  A:HOH 802       -> Orientation 3/14
+  A:HOH 806       -> Orientation 5/28
+  A:HOH 807       -> Orientation 24/26
+  A:HOH 808       -> Orientation 2/17
+  A:HOH 810       -> Orientation 3/4
+  A:HOH 812       -> Orientation 12/15
+  A:HOH 814       -> Orientation 15/15
+  A:HOH 817       -> Orientation 4/14
+  A:HOH 819       -> Orientation 3/4
+  A:HOH 820       -> Orientation 9/36
+  A:HOH 824       -> Orientation 7/21
+  A:HOH 825       -> Orientation 12/13
+  A:HOH 826       -> Orientation 18/20
+  A:HOH 827       -> Orientation 8/11
+  A:HOH 830       -> Orientation 4/7
+  A:HOH 834       -> Orientation 8/24
+  A:HOH 835       -> Orientation 2/5
+  A:HOH 836       -> Orientation 2/13
+  A:HOH 837       -> Orientation 2/11
+  A:HOH 839       -> Orientation 7/9
+  A:HOH 841       -> Orientation 6/21
+  A:HOH 843       -> Orientation 7/23
+  A:HOH 846       -> Orientation 4/17
+  A:HOH 847       -> Orientation 2/10
+  A:HOH 848       -> Orientation 5/6
+  A:HOH 850       -> Orientation 4/7
+  A:HOH 852       -> Orientation 2/6
+  A:HOH 853       -> Orientation 9/10
+  A:HOH 855       -> Orientation 5/22
+  A:HOH 859       -> Orientation 9/18
+  A:HOH 861       -> Orientation 4/10
+  A:HOH 863       -> Orientation 10/36
+  A:HOH 866       -> Orientation 7/28
+  A:HOH 867       -> Orientation 11/16
+  A:HOH 868       -> Orientation 1/4
+  A:HOH 875       -> Orientation 9/11
+  A:HOH 877       -> Orientation 1/31
+  A:HOH 878       -> Orientation 4/11
+  A:HOH 879       -> Orientation 1/11
+  A:HOH 880       -> Orientation 5/17
+  A:HOH 881       -> Orientation 2/3
+  A:HOH 888       -> Orientation 16/17
+  A:HOH 892       -> Orientation 7/10
+  A:HOH 893       -> Orientation 10/33
+  A:HOH 895       -> Orientation 20/29
+  A:HOH 899       -> Orientation 3/5
+  A:HOH 900       -> Orientation 25/34
+  A:HOH 903       -> Orientation 1/4
+  A:HOH 905       -> Orientation 8/11
+  A:HOH 906       -> Orientation 3/15
+  A:HOH 908       -> Orientation 8/9
+  A:HOH 911       -> Orientation 2/10
+  A:HOH 912       -> Orientation 4/13
+  A:HOH 916       -> Orientation 3/14
+  A:HOH 918       -> Orientation 4/10
+  A:HOH 920       -> Orientation 9/31
+  A:HOH 922       -> Orientation 6/15
+  A:HOH 925       -> Orientation 5/6
+  A:HOH 927       -> Orientation 7/13
+  A:HOH 929       -> Orientation 11/14
+  A:HOH 936       -> Orientation 5/22
+  A:HOH 937       -> Orientation 6/6
+  A:HOH 939       -> Orientation 3/11
+  A:HOH 944       -> Orientation 4/4
+  A:HOH 945       -> Orientation 1/12
+  A:HOH 946       -> Orientation 9/11
+  A:HOH 947       -> Orientation 1/1
+  A:HOH 949       -> Orientation 7/15
+  A:HOH 953       -> Orientation 1/5
+  A:HOH 956       -> Orientation 1/5
+  A:HOH 957       -> Orientation 1/6
+  A:HOH 959       -> Orientation 13/13
+  A:HOH 961       -> Orientation 5/23
+  A:HOH 962       -> Orientation 4/4
+  A:HOH 963       -> Orientation 9/10
+  A:HOH 966       -> Orientation 3/4
+  A:HOH 967       -> Orientation 7/21
+  A:HOH 968       -> Orientation 1/4
+  A:HOH 969       -> Orientation 3/3
+  A:HOH 970       -> Orientation 25/32
+  A:HOH 971       -> Orientation 3/5
+  A:HOH 976       -> Orientation 2/4
+  A:HOH 979       -> Orientation 1/1
+  A:HOH 982       -> Orientation 9/10
+  A:HOH 988       -> Orientation 2/5
+  A:HOH 991       -> Orientation 5/5
+  A:HOH 993       -> Orientation 7/10
+  A:HOH 994       -> Orientation 1/10
+  A:HOH 995       -> Orientation 1/8
+  A:HOH 998       -> Orientation 11/20
+  A:HOH 999       -> Orientation 2/8
+  A:HOH 1001      -> Orientation 5/19
+  A:HOH 1002      -> Orientation 1/2
+  A:HOH 1004      -> Orientation 3/11
+  A:HOH 1007      -> Orientation 5/6
+  A:HOH 1010      -> Orientation 11/21
+  A:HOH 1011      -> Orientation 2/8
+  A:HOH 1013      -> Orientation 8/19
+  A:HOH 1017      -> Orientation 5/19
+  A:HOH 1020      -> Orientation 7/11
+  A:HOH 1021      -> Orientation 2/12
+  A:HOH 1022      -> Orientation 3/8
+
+Optimizing cluster #2 ...
+Lowest energy: -5.1642
+Assignments:
+  A:ASN 357       -> No Flip
+  A:HOH 803       -> Orientation 2/7
+  A:HOH 896       -> Orientation 2/3
+
+Optimizing cluster #3 ...
+Lowest energy: -5.2403
+Assignments:
+  A:ASN 359       -> No Flip
+  A:ASP 362       -> Charged (pKa = 3.78)
+  A:HOH 931       -> Orientation 4/4
+  A:HOH 960       -> Orientation 8/9
+
+Optimizing cluster #4 ...
+      Stage 1: Sequential iteration with hybridization
+        Best solution after Stage 1: -32.37103123487028
+      Stage 2: Diversification of existing solutions
+        Best solution after Stage 2: -32.61864324887697
+      Stage 3: Recombination of existing solutions
+        Best solution after Stage 3: -32.61864324887697
+Lowest energy: -32.6186
+Assignments:
+  A:ASN 369       -> No Flip
+  A:ASN 371       -> No Flip
+  A:HID 370       -> Flip HIE (pKa = 6.34)
+  A:HID 386       -> HID (pKa = 5.73)
+  A:SER 368: HG   -> Stagger 3 10/10
+  A:HOH 821       -> Orientation 2/2
+  A:HOH 838       -> Orientation 2/7
+  A:HOH 845       -> Orientation 7/30
+  A:HOH 874       -> Orientation 8/8
+  A:HOH 914       -> Orientation 2/3
+  A:HOH 928       -> Orientation 21/34
+  A:HOH 934       -> Orientation 4/8
+  A:HOH 938       -> Orientation 3/5
+  A:HOH 965       -> Orientation 4/4
+  A:HOH 978       -> Orientation 10/14
+  A:HOH 984       -> Orientation 2/3
+  A:HOH 985       -> Orientation 4/5
+  A:HOH 992       -> Orientation 6/6
+
+Optimizing cluster #5 ...
+Lowest energy: -0.5285
+Assignments:
+  A:ASN 378       -> Flip
+
+Optimizing cluster #6 ...
+Lowest energy: -7.8861
+Assignments:
+  A:GLN 380       -> No Flip
+  A:HOH 816       -> Orientation 7/17
+  A:HOH 869       -> Orientation 4/5
+
+Optimizing cluster #7 ...
+Lowest energy: -6.9228
+Assignments:
+  A:ASN 401       -> No Flip
+  A:CYS 322: HG   -> Stagger 1 3/5 (pKa = 11.67)
+  A:HOH 872       -> Orientation 2/5
+  A:HOH 989       -> Orientation 3/3
+
+Optimizing cluster #8 ...
+Lowest energy: -9.3139
+Assignments:
+  A:GLN 413       -> No Flip
+  A:HOH 886       -> Orientation 2/3
+  A:HOH 909       -> Orientation 2/2
+  A:HOH 941       -> Orientation 2/4
+  A:HOH 952       -> Orientation 4/5
+  A:HOH 964       -> Orientation 11/11
+
+Optimizing cluster #9 ...
+      Stage 1: Sequential iteration with hybridization
+        Best solution after Stage 1: -17.925604969204656
+      Stage 2: Diversification of existing solutions
+        Best solution after Stage 2: -17.949698997457105
+      Stage 3: Recombination of existing solutions
+        Best solution after Stage 3: -17.949698997457105
+Lowest energy: -17.9497
+Assignments:
+  A:GLN 498       -> No Flip
+  A:THR 496: HG1  -> Stagger 1 2/4
+  A:HOH 854       -> Orientation 2/11
+  A:HOH 891       -> Orientation 7/33
+  A:HOH 910       -> Orientation 2/2
+  A:HOH 913       -> Orientation 12/16
+  A:HOH 997       -> Orientation 4/4
+  A:HOH 1008      -> Orientation 2/2
+  A:HOH 1016      -> Orientation 9/11
+
+Optimizing cluster #10 ...
+Lowest energy: -9.4191
+Assignments:
+  A:ASN 520       -> No Flip
+  A:CYS 606: HG   -> Stagger 1 4/6 (pKa = 10.64)
+  A:HOH 809       -> Orientation 2/10
+  A:HOH 857       -> Orientation 2/3
+  A:HOH 986       -> Orientation 4/6
+
+Optimizing cluster #11 ...
+      Stage 1: Sequential iteration with hybridization
+        Best solution after Stage 1: -13.888681318188153
+      Stage 2: Diversification of existing solutions
+        Best solution after Stage 2: -13.888681318188153
+      Stage 3: Recombination of existing solutions
+        Best solution after Stage 3: -13.888681318188153
+Lowest energy: -13.8887
+Assignments:
+  A:ASN 527       -> Flip
+  A:THR 530: HG1  -> Stagger 1 3/5
+  A:SER 573: HG   -> Orientation 1/6
+  A:ASP 569       -> Charged (pKa = 4.81)
+  A:HOH 829       -> Orientation 26/31
+  A:HOH 860       -> Orientation 21/22
+  A:HOH 885       -> Orientation 5/5
+
+Optimizing cluster #12 ...
+Lowest energy: -2.1979
+Assignments:
+  A:ASN 534       -> No Flip
+  A:HOH 972       -> Orientation 1/4
+  A:HOH 981       -> Orientation 3/3
+
+Optimizing cluster #13 ...
+Lowest energy: -2.6139
+Assignments:
+  A:ASN 537       -> No Flip
+
+Optimizing cluster #14 ...
+Lowest energy: -5.9718
+Assignments:
+  A:GLN 550       -> No Flip
+  A:ASP 554       -> Charged (pKa = 3.57)
+  A:HOH 890       -> Orientation 4/5
+  A:HOH 990       -> Orientation 6/10
+  A:HOH 1018      -> Orientation 2/8
+
+Optimizing cluster #15 ...
+Lowest energy: -5.0344
+Assignments:
+  A:GLN 562       -> No Flip
+  A:HOH 815       -> Orientation 1/4
+  A:HOH 942       -> Orientation 1/3
+
+Optimizing cluster #16 ...
+Lowest energy: -0.9503
+Assignments:
+  A:GLN 579       -> Flip
+  A:ASN 580       -> No Flip
+  A:GLU 576       -> Charged (pKa = 4.80)
+
+Optimizing cluster #17 ...
+Lowest energy: -3.7275
+Assignments:
+  A:ASN 583       -> Flip
+  A:HOH 818       -> Orientation 3/3
+
+Optimizing cluster #18 ...
+      Stage 1: Sequential iteration with hybridization
+        Best solution after Stage 1: -10.822799938648428
+      Stage 2: Diversification of existing solutions
+        Best solution after Stage 2: -10.822799938648428
+      Stage 3: Recombination of existing solutions
+        Best solution after Stage 3: -10.822799938648428
+Lowest energy: -10.8228
+Assignments:
+  A:LYS 318       -> Orientation 1/2 (pKa = 11.07)
+  A:ASP 461       -> Charged (pKa = 3.12)
+  A:HOH 801       -> Orientation 2/5
+  A:HOH 901       -> Orientation 4/10
+  A:HOH 924       -> Orientation 1/19
+  A:HOH 977       -> Orientation 1/14
+  A:HOH 1019      -> Orientation 10/10
+
+Optimizing cluster #19 ...
+Lowest energy: -3.0905
+Assignments:
+  A:LYS 367       -> Orientation 1/1 (pKa = 10.50)
+  A:HOH 831       -> Orientation 3/4
+
+Optimizing cluster #20 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 396       -> Stagger (pKa = 10.57)
+
+Optimizing cluster #21 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 403       -> Orientation 1/2 (pKa = 10.40)
+
+Optimizing cluster #22 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 406       -> Orientation 1/1 (pKa = 10.59)
+
+Optimizing cluster #23 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 408       -> Stagger (pKa = 10.72)
+
+Optimizing cluster #24 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 542       -> Orientation 1/1 (pKa = 10.66)
+
+Optimizing cluster #25 ...
+Lowest energy: -1.9544
+Assignments:
+  A:LYS 575       -> Orientation 1/1 (pKa = 10.01)
+  A:THR 531: HG1  -> Default 4/7
+
+Optimizing cluster #26 ...
+Lowest energy: -9.5892
+Assignments:
+  A:HID 469       -> HIE (pKa = 1.21)
+  A:HID 478       -> HIE (pKa = 5.07)
+  A:SER 450: HG   -> Orientation 1/8
+  A:TYR 467: HH   -> Orientation 1/4 (pKa = 15.15)
+  A:GLU 472       -> Charged (pKa = 3.96)
+  A:HOH 873       -> Orientation 1/3
+
+Optimizing cluster #27 ...
+Lowest energy: -0.2655
+Assignments:
+  A:SER 307: HG   -> Stagger 1 5/6 (pKa = 7.92)
+
+Optimizing cluster #28 ...
+Lowest energy: -3.3274
+Assignments:
+  A:SER 316: HG   -> Orientation 1/7
+  A:GLU 320       -> Charged (pKa = 3.99)
+  A:HOH 864       -> Orientation 2/2
+
+Optimizing cluster #29 ...
+Lowest energy: -0.4080
+Assignments:
+  A:CYS 328: HG   -> Orientation 1/7 (pKa = 10.47)
+
+Optimizing cluster #30 ...
+Lowest energy: -8.5461
+Assignments:
+  A:TYR 343: HH   -> Orientation 1/2 (pKa = 12.41)
+  A:THR 404: HG1  -> Orientation 1/6
+  A:TYR 407: HH   -> Default 1 3/4 (pKa = 11.21)
+  A:ASP 339       -> Charged (pKa = 4.33)
+  A:HOH 871       -> Orientation 3/13
+  A:HOH 974       -> Orientation 2/9
+  A:HOH 1015      -> Orientation 1/2
+
+Optimizing cluster #31 ...
+Lowest energy: -0.9161
+Assignments:
+  A:CYS 344: HG   -> Default 3/6 (pKa = 12.81)
+
+Optimizing cluster #32 ...
+Lowest energy: -3.8657
+Assignments:
+  A:THR 351: HG1  -> Orientation 2/10
+  A:ASP 354       -> Charged (pKa = 2.65)
+
+Optimizing cluster #33 ...
+Lowest energy: -0.1816
+Assignments:
+  A:SER 352: HG   -> Orientation 1/5
+
+Optimizing cluster #34 ...
+Lowest energy: -6.4173
+Assignments:
+  A:SER 387: HG   -> Orientation 6/9
+  A:HOH 858       -> Orientation 7/36
+  A:HOH 983       -> Orientation 6/6
+  A:HOH 1003      -> Orientation 2/2
+
+Optimizing cluster #35 ...
+Lowest energy: -2.1538
+Assignments:
+  A:THR 399: HG1  -> Orientation 1/6
+  A:ASP 398       -> Charged (pKa = 3.43)
+
+Optimizing cluster #36 ...
+Lowest energy: -4.4215
+Assignments:
+  A:CYS 423: HG   -> Stagger 1 5/7 (pKa = 12.23)
+  A:HOH 851       -> Orientation 2/5
+
+Optimizing cluster #37 ...
+Lowest energy: -3.6903
+Assignments:
+  A:TYR 424: HH   -> Orientation 2/2 (pKa = 10.40)
+  A:HOH 840       -> Orientation 2/6
+
+Optimizing cluster #38 ...
+Lowest energy: -7.5168
+Assignments:
+  A:SER 427: HG   -> Orientation 4/8
+  A:HOH 919       -> Orientation 1/4
+  A:HOH 923       -> Orientation 2/2
+  A:HOH 935       -> Orientation 6/7
+
+Optimizing cluster #39 ...
+Lowest energy: -1.1088
+Assignments:
+  A:SER 429: HG   -> Orientation 1/8
+
+Optimizing cluster #40 ...
+Lowest energy: -1.9129
+Assignments:
+  A:TYR 432: HH   -> Default 1 3/4 (pKa = 13.15)
+
+Optimizing cluster #41 ...
+Lowest energy: -0.3628
+Assignments:
+  A:CYS 434: HG   -> Stagger 3 5/5 (pKa = 12.82)
+
+Optimizing cluster #42 ...
+Lowest energy: -0.3555
+Assignments:
+  A:SER 445: HG   -> Stagger 3 5/5
+
+Optimizing cluster #43 ...
+Lowest energy: -1.5944
+Assignments:
+  A:TYR 460: HH   -> Default 2 2/2 (pKa = 10.28)
+  A:ASP 459       -> Charged (pKa = 4.03)
+  A:HOH 948       -> Orientation 2/8
+
+Optimizing cluster #44 ...
+Lowest energy: -0.5062
+Assignments:
+  A:CYS 462: HG   -> Stagger 1 3/5 (pKa = 9.20)
+
+Optimizing cluster #45 ...
+Lowest energy: -2.5953
+Assignments:
+  A:TYR 488: HH   -> Orientation 1/4 (pKa = 13.39)
+
+Optimizing cluster #46 ...
+Lowest energy: -2.3121
+Assignments:
+  A:THR 507: HG1  -> Orientation 1/6
+
+Optimizing cluster #47 ...
+Lowest energy: -3.7038
+Assignments:
+  A:TYR 515: HH   -> Orientation 1/2 (pKa = 12.53)
+  A:SER 560: HG   -> Orientation 1/3
+
+Optimizing cluster #48 ...
+Lowest energy: -1.2893
+Assignments:
+  A:THR 532: HG1  -> Orientation 2/7
+
+Optimizing cluster #49 ...
+Lowest energy: -0.2759
+Assignments:
+  A:TYR 543: HH   -> Default 2 4/4 (pKa = 10.12)
+
+Optimizing cluster #50 ...
+Lowest energy: -2.0028
+Assignments:
+  A:THR 563: HG1  -> Orientation 1/7
+
+Optimizing cluster #51 ...
+Lowest energy: -0.6405
+Assignments:
+  A:CYS 571: HG   -> Orientation 1/5 (pKa = 12.08)
+
+Optimizing cluster #52 ...
+Lowest energy: -10.4404
+Assignments:
+  A:THR 586: HG1  -> Stagger 3 4/4
+  A:ASP 522       -> Charged (pKa = 3.70)
+  A:HOH 844       -> Orientation 7/11
+  A:HOH 889       -> Orientation 7/7
+  A:HOH 932       -> Orientation 2/3
+
+Optimizing cluster #53 ...
+Lowest energy: -0.7911
+Assignments:
+  A:SER 607: HG   -> Stagger 3 5/5
+
+Optimizing cluster #54 ...
+Lowest energy: -3.3146
+Assignments:
+  A:ASP 340       -> Charged (pKa = 3.64)
+  A:HOH 832       -> Orientation 1/4
+
+Optimizing cluster #55 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 353       -> Charged (pKa = 4.73)
+
+Optimizing cluster #56 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 361       -> Charged (pKa = 4.68)
+
+Optimizing cluster #57 ...
+Lowest energy: -2.4910
+Assignments:
+  A:ASP 535       -> Charged (pKa = 3.87)
+  A:HOH 805       -> Orientation 1/4
+
+Optimizing cluster #58 ...
+Lowest energy: 0.0000
+Assignments:
+  A:ASP 551       -> Charged (pKa = 4.11)
+
+Optimizing cluster #59 ...
+Lowest energy: -5.1841
+Assignments:
+  A:HOH 804       -> Orientation 2/3
+  A:HOH 828       -> Orientation 3/3
+
+Optimizing cluster #60 ...
+Lowest energy: -11.5248
+Assignments:
+  A:HOH 811       -> Orientation 2/9
+  A:HOH 915       -> Orientation 4/5
+  A:HOH 958       -> Orientation 3/6
+  A:HOH 1005      -> Orientation 3/4
+
+Optimizing cluster #61 ...
+Lowest energy: -0.1974
+Assignments:
+  A:HOH 813       -> Orientation 1/5
+
+Optimizing cluster #62 ...
+Lowest energy: -13.6933
+Assignments:
+  A:HOH 822       -> Orientation 1/7
+  A:HOH 849       -> Orientation 3/6
+  A:HOH 973       -> Orientation 2/6
+  A:HOH 980       -> Orientation 3/5
+  A:HOH 1014      -> Orientation 9/10
+
+Optimizing cluster #63 ...
+Lowest energy: -6.6105
+Assignments:
+  A:HOH 823       -> Orientation 4/18
+  A:HOH 933       -> Orientation 1/2
+  A:HOH 996       -> Orientation 2/3
+  A:HOH 1006      -> Orientation 2/2
+
+Optimizing cluster #64 ...
+Lowest energy: -2.6697
+Assignments:
+  A:HOH 833       -> Orientation 2/2
+
+Optimizing cluster #65 ...
+Lowest energy: -3.6473
+Assignments:
+  A:HOH 842       -> Orientation 2/5
+
+Optimizing cluster #66 ...
+Lowest energy: -3.0788
+Assignments:
+  A:HOH 856       -> Orientation 1/4
+  A:HOH 894       -> Orientation 5/5
+
+Optimizing cluster #67 ...
+Lowest energy: -1.3779
+Assignments:
+  A:HOH 862       -> Orientation 2/2
+
+Optimizing cluster #68 ...
+Lowest energy: -1.2052
+Assignments:
+  A:HOH 865       -> Orientation 1/2
+
+Optimizing cluster #69 ...
+Lowest energy: -3.9559
+Assignments:
+  A:HOH 870       -> Orientation 2/6
+
+Optimizing cluster #70 ...
+Lowest energy: -3.7676
+Assignments:
+  A:HOH 876       -> Orientation 3/3
+  A:HOH 882       -> Orientation 3/3
+
+Optimizing cluster #71 ...
+Lowest energy: -1.6880
+Assignments:
+  A:HOH 883       -> Orientation 2/2
+
+Optimizing cluster #72 ...
+Lowest energy: -1.2060
+Assignments:
+  A:HOH 884       -> Orientation 1/1
+
+Optimizing cluster #73 ...
+Lowest energy: -5.2710
+Assignments:
+  A:HOH 887       -> Orientation 1/9
+  A:HOH 904       -> Orientation 2/6
+
+Optimizing cluster #74 ...
+Lowest energy: -1.1629
+Assignments:
+  A:HOH 897       -> Orientation 1/1
+
+Optimizing cluster #75 ...
+Lowest energy: -7.4507
+Assignments:
+  A:HOH 898       -> Orientation 1/4
+  A:HOH 950       -> Orientation 7/13
+  A:HOH 951       -> Orientation 2/3
+  A:HOH 955       -> Orientation 2/3
+
+Optimizing cluster #76 ...
+Lowest energy: -1.0184
+Assignments:
+  A:HOH 902       -> Orientation 1/1
+
+Optimizing cluster #77 ...
+Lowest energy: -2.1913
+Assignments:
+  A:HOH 907       -> Orientation 2/4
+  A:HOH 1012      -> Orientation 2/2
+
+Optimizing cluster #78 ...
+Lowest energy: -1.6119
+Assignments:
+  A:HOH 917       -> Orientation 3/3
+
+Optimizing cluster #79 ...
+Lowest energy: 8.1295
+Assignments:
+  A:HOH 921       -> Orientation 1/2
+
+Optimizing cluster #80 ...
+Lowest energy: -3.3091
+Assignments:
+  A:HOH 926       -> Orientation 3/4
+  A:HOH 987       -> Orientation 2/5
+
+Optimizing cluster #81 ...
+Lowest energy: -3.1363
+Assignments:
+  A:HOH 930       -> Orientation 4/5
+  A:HOH 975       -> Orientation 4/5
+
+Optimizing cluster #82 ...
+Lowest energy: -2.8347
+Assignments:
+  A:HOH 940       -> Orientation 8/8
+  A:HOH 1009      -> Orientation 1/2
+
+Optimizing cluster #83 ...
+Lowest energy: -1.0338
+Assignments:
+  A:HOH 943       -> Orientation 2/2
+
+Optimizing cluster #84 ...
+Lowest energy: -0.9247
+Assignments:
+  A:HOH 954       -> Orientation 1/1
+
+Optimizing cluster #85 ...
+Lowest energy: -0.0087
+Assignments:
+  A:HOH 1000      -> Initial 1/1
+
+
+Recalculating pKas to identify changes in protonation penalties...
+Running PROPKA to get pKas
+No changes in protonation penalties found.
+
+Combined total energy: -566.5311
+Alternative States for A:GLN 416  Gap  1.86 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.86 kcals/mol
+Alternative States for A:ASN 486  Gap  1.86 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.86 kcals/mol
+Alternative States for A:HID 470  Gap  1.86 kcals/mol
+    Flip HIE  0.00 kcals/mol
+    HIE       1.86 kcals/mol
+Alternative States for A:HID 370  Gap  0.25 kcals/mol
+    Flip HIE  0.00 kcals/mol
+    Flip HID  0.25 kcals/mol
+Alternative States for A:ASN 378  Gap  0.09 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.09 kcals/mol
+Alternative States for A:GLN 380  Gap  0.72 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.72 kcals/mol
+Alternative States for A:ASN 527  Gap  0.49 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.49 kcals/mol
+Alternative States for A:ASN 534  Gap  0.16 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.16 kcals/mol
+Alternative States for A:GLN 562  Gap  0.13 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.13 kcals/mol
+Alternative States for A:GLN 579  Gap  0.39 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.39 kcals/mol
+Alternative States for A:ASN 583  Gap  0.28 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.28 kcals/mol
+
+Final pKas:
+  A:LYS 311 : 10.85
+  A:LYS 318 : 11.07
+  A:LYS 367 : 10.50
+  A:LYS 394 : 9.86
+  A:LYS 396 : 10.57
+  A:LYS 403 : 10.40
+  A:LYS 406 : 10.59
+  A:LYS 408 : 10.72
+  A:LYS 443 : 10.21
+  A:LYS 542 : 10.66
+  A:LYS 575 : 10.01
+  A:HID 347 : 1.90
+  A:HID 370 : 6.26
+  A:HID 386 : 5.73
+  A:HID 469 : 1.22
+  A:HID 470 : 4.87
+  A:HID 478 : 5.07
+  A:HID 552 : 5.47
+  A:SER 307: HG  : 7.92
+  A:CYS 322: HG  : 11.67
+  A:CYS 328: HG  : 10.47
+  A:TYR 343: HH  : 12.41
+  A:CYS 344: HG  : 12.81
+  A:CYS 350: HG  : 11.33
+  A:TYR 360: HH  : 15.48
+  A:CYS 391: HG  : 11.69
+  A:TYR 407: HH  : 11.21
+  A:CYS 423: HG  : 12.23
+  A:TYR 424: HH  : 10.40
+  A:TYR 432: HH  : 13.15
+  A:CYS 434: HG  : 12.82
+  A:TYR 460: HH  : 10.28
+  A:CYS 462: HG  : 9.20
+  A:CYS 466: HG  : 12.76
+  A:TYR 467: HH  : 15.15
+  A:TYR 488: HH  : 13.39
+  A:TYR 515: HH  : 12.53
+  A:TYR 543: HH  : 10.12
+  A:TYR 545: HH  : 12.56
+  A:CYS 571: HG  : 12.08
+  A:CYS 606: HG  : 10.64
+  A:GLU 320 : 3.99
+  A:ASP 339 : 4.33
+  A:ASP 340 : 3.64
+  A:GLU 353 : 4.73
+  A:ASP 354 : 2.65
+  A:GLU 361 : 4.68
+  A:ASP 362 : 3.78
+  A:ASP 398 : 3.43
+  A:ASP 459 : 4.03
+  A:ASP 461 : 3.12
+  A:GLU 472 : 3.96
+  A:ASP 482 : 3.65
+  A:GLU 484 : 4.88
+  A:ASP 493 : 3.72
+  A:ASP 503 : 3.53
+  A:ASP 522 : 3.70
+  A:ASP 535 : 3.87
+  A:GLU 546 : 5.93
+  A:ASP 551 : 4.11
+  A:ASP 554 : 3.57
+  A:ASP 569 : 4.81
+  A:GLU 576 : 4.80
+  A:GLU 594 : 4.74
+  A:ASP 595 : 3.00
+  A:GLU 596 : 5.40
+  A:ASP 601 : 4.81
+Structure extracted from file: C:\Users\Clar\AppData\Local\Schrodinger\tmp\proteinprep_1\proteinprep_1-001\Optimize_H-bond_Assignments.maegz
+Output structure will be written to: Optimize_H-bond_Assignments-out.maegz
+
+Complete. Output file: Optimize_H-bond_Assignments-out.maegz
+Idealizing hydrogen temperature factors...
+Optimize H-bond job completed
+Running restrained minimization...
+  RMSD: 0.3
+  Force field: S-OPLS
+  all atoms
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file proteinprep_1_ref0.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:03
+ Impact version 103132
+ mmshare version        66132
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Windows Host: WIN-H0DM3L6LN6B
+ Job Name: proteinprep_1
+ JobId:    WIN-H0DM3L6LN6B-0-678c7aec
+ SCHRODINGER  directory: C:\Program Files\Schrodinger2024-2
+ IMPACT_EXEC  directory: C:\Program Files\Schrodinger2024-2\impact-v10.3\bin\Windows-x64
+ MMSHARE_EXEC directory: C:\Program Files\Schrodinger2024-2\mmshare-v6.6\bin\Windows-x64
+
+ Clock-based global random seed:     1737259983
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coord. are written to file: "proteinprep_1.init_coord.rst"
+      Box dimensions not written
+
+
+ Total number of atoms  =  5355
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1670659
+ E-pot        RMS grad     Max grad    
+  3.17359E+04  3.22818E+03  2.82476E+05
+ Step number:         10         Non-bonded count:  1670659
+ -1.88499E+03  2.47389E+00  9.63299E+01
+ Step number:         20         Non-bonded count:  1671605
+ -2.14187E+03  1.20275E+00  2.57546E+01
+ Step number:         30         Non-bonded count:  1672757
+ -2.23075E+03  7.96822E-01  2.01838E+01
+ Step number:         40         Non-bonded count:  1671277
+ -2.27834E+03  6.36899E-01  1.65328E+01
+ Step number:         50         Non-bonded count:  1670422
+ -2.30893E+03  5.22537E-01  8.32907E+00
+ Step number:         60         Non-bonded count:  1671492
+ -2.32723E+03  4.10389E-01  6.84710E+00
+ Step number:         70         Non-bonded count:  1670582
+ -2.34007E+03  3.65402E-01  8.61973E+00
+ Step number:         80         Non-bonded count:  1670469
+ -2.34993E+03  3.11752E-01  6.95872E+00
+ Step number:         90         Non-bonded count:  1671496
+ -2.35710E+03  2.73034E-01  5.07027E+00
+ Step number:        100         Non-bonded count:  1671044
+ -2.36283E+03  2.41169E-01  3.76758E+00
+ Step number:        100         Non-bonded count:  1672025
+ -2.36285E+03  2.41139E-01  3.76758E+00
+      Current coord. are written to file: "proteinprep_1.min0_coord.rst"
+      Box dimensions not written
+      Current coordinates are read from file: "proteinprep_1.init_coord.rst"
+      Box dimensions not read
+          read from "proteinprep_1.init_coord.rst"
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     289
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coordinates are read from file: "proteinprep_1.min0_coord.rst"
+      Box dimensions not read
+          read from "proteinprep_1.min0_coord.rst"
+
+
+ Total number of atoms  =  5355
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1672025
+ E-pot        RMS grad     Max grad    
+ -2.22992E+02  5.92335E+00  5.43837E+01
+ Step number:         10         Non-bonded count:  1672025
+ -1.22580E+03  1.63412E+00  3.07630E+01
+ Step number:         20         Non-bonded count:  1670655
+ -1.35961E+03  9.62345E-01  2.42152E+01
+ Step number:         30         Non-bonded count:  1671871
+ -1.40855E+03  5.67704E-01  1.06231E+01
+ Step number:         40         Non-bonded count:  1671557
+ -1.43394E+03  4.72532E-01  7.80851E+00
+ Step number:         50         Non-bonded count:  1671992
+ -1.44774E+03  3.41539E-01  8.70244E+00
+ Step number:         60         Non-bonded count:  1671525
+ -1.45496E+03  2.75447E-01  6.67320E+00
+ Step number:         70         Non-bonded count:  1671958
+ -1.46073E+03  2.36237E-01  5.62875E+00
+ Step number:         80         Non-bonded count:  1671864
+ -1.46567E+03  2.30118E-01  5.84321E+00
+ Step number:         90         Non-bonded count:  1672165
+ -1.46980E+03  2.03403E-01  5.61945E+00
+ Step number:        100         Non-bonded count:  1672064
+ -1.47273E+03  1.64159E-01  3.53875E+00
+ Step number:        100         Non-bonded count:  1672049
+ -1.47270E+03  1.64161E-01  3.53875E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     546
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -1.47270E+03 kcal/mol
+ Total Potential Energy.......... -1.47270E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  8.83426E+01 kcal/mol
+ Angle Bending Energy............  5.38938E+02 kcal/mol
+ Torsion Angle Energy............  6.55693E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  1.58967E+03 kcal/mol
+ 1,4 Electrostatic Energy........  5.69135E+02 kcal/mol
+ Lennard Jones Energy............ -2.83086E+03 kcal/mol
+ Electrostatic Energy............ -2.35583E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:14
+nblist:WARNING process_pending_messages: The mmjobbe library is uninitialized
+Error: No path for jmonitor fifo
+%IMPACT-I (timit): Total CPU time =      10.31 seconds (   0.2 minutes)
+Total elapsed time = 11 seconds
+[running at reduced cpu priority]
+Beginning refinement level 0
+ ** Completed refinement level 0 and rmsd = 0.10232114170495822
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file proteinprep_1_ref1.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:16
+ Impact version 103132
+ mmshare version        66132
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Windows Host: WIN-H0DM3L6LN6B
+ Job Name: proteinprep_1
+ JobId:    WIN-H0DM3L6LN6B-0-678c7aec
+ SCHRODINGER  directory: C:\Program Files\Schrodinger2024-2
+ IMPACT_EXEC  directory: C:\Program Files\Schrodinger2024-2\impact-v10.3\bin\Windows-x64
+ MMSHARE_EXEC directory: C:\Program Files\Schrodinger2024-2\mmshare-v6.6\bin\Windows-x64
+
+ Clock-based global random seed:     1737259996
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  5355
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1672049
+ E-pot        RMS grad     Max grad    
+ -1.74493E+03  8.41109E-01  1.46300E+01
+ Step number:         10         Non-bonded count:  1672049
+ -1.86138E+03  8.44995E-01  1.41485E+01
+ Step number:         20         Non-bonded count:  1671329
+ -1.90705E+03  5.74293E-01  1.82835E+01
+ Step number:         30         Non-bonded count:  1670268
+ -1.92543E+03  3.74511E-01  4.33850E+00
+ Step number:         40         Non-bonded count:  1667449
+ -1.93484E+03  2.65464E-01  5.43256E+00
+ Step number:         50         Non-bonded count:  1665754
+ -1.93935E+03  2.07027E-01  2.87444E+00
+ Step number:         60         Non-bonded count:  1665172
+ -1.94267E+03  1.75983E-01  5.11894E+00
+ Step number:         70         Non-bonded count:  1665752
+ -1.94504E+03  1.60132E-01  2.73896E+00
+ Step number:         80         Non-bonded count:  1666526
+ -1.94696E+03  1.67057E-01  4.40607E+00
+ Step number:         90         Non-bonded count:  1667377
+ -1.94902E+03  1.41520E-01  2.60475E+00
+ Step number:        100         Non-bonded count:  1667531
+ -1.95062E+03  1.31479E-01  3.11334E+00
+ Step number:        100         Non-bonded count:  1668398
+ -1.95064E+03  1.31485E-01  3.11334E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     265
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -1.95064E+03 kcal/mol
+ Total Potential Energy.......... -1.95064E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  1.23839E+02 kcal/mol
+ Angle Bending Energy............  5.83972E+02 kcal/mol
+ Torsion Angle Energy............  6.18741E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  1.45703E+03 kcal/mol
+ 1,4 Electrostatic Energy........  5.60235E+02 kcal/mol
+ Lennard Jones Energy............ -3.11630E+03 kcal/mol
+ Electrostatic Energy............ -2.26237E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:23
+nblist:WARNING process_pending_messages: The mmjobbe library is uninitialized
+Error: No path for jmonitor fifo
+%IMPACT-I (timit): Total CPU time =       7.49 seconds (   0.1 minutes)
+Total elapsed time = 7 seconds
+[running at reduced cpu priority]
+Beginning refinement level 1
+ ** Completed refinement level 1 and rmsd = 0.1905958117386482
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file proteinprep_1_ref2.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:26
+ Impact version 103132
+ mmshare version        66132
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Windows Host: WIN-H0DM3L6LN6B
+ Job Name: proteinprep_1
+ JobId:    WIN-H0DM3L6LN6B-0-678c7aec
+ SCHRODINGER  directory: C:\Program Files\Schrodinger2024-2
+ IMPACT_EXEC  directory: C:\Program Files\Schrodinger2024-2\impact-v10.3\bin\Windows-x64
+ MMSHARE_EXEC directory: C:\Program Files\Schrodinger2024-2\mmshare-v6.6\bin\Windows-x64
+
+ Clock-based global random seed:     1737260006
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  5355
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1668398
+ E-pot        RMS grad     Max grad    
+ -2.03487E+03  2.79931E-01  3.25290E+00
+ Step number:         10         Non-bonded count:  1668398
+ -2.05877E+03  6.32532E-01  1.69713E+01
+ Step number:         20         Non-bonded count:  1667886
+ -2.08172E+03  4.56929E-01  1.38420E+01
+ Step number:         30         Non-bonded count:  1665741
+ -2.09447E+03  3.72965E-01  7.88121E+00
+ Step number:         40         Non-bonded count:  1665959
+ -2.10318E+03  2.74753E-01  5.22832E+00
+ Step number:         50         Non-bonded count:  1663843
+ -2.10776E+03  2.22846E-01  3.77352E+00
+ Step number:         60         Non-bonded count:  1663817
+ -2.11142E+03  2.08652E-01  5.92636E+00
+ Step number:         70         Non-bonded count:  1662264
+ -2.11353E+03  1.57148E-01  2.75362E+00
+ Step number:         80         Non-bonded count:  1660273
+ -2.11511E+03  1.38784E-01  2.53222E+00
+ Step number:         90         Non-bonded count:  1660986
+ -2.11657E+03  1.28130E-01  3.03718E+00
+ Step number:        100         Non-bonded count:  1661631
+ -2.11773E+03  1.13946E-01  2.88284E+00
+ Step number:        100         Non-bonded count:  1662116
+ E-pot        RMS grad     Max grad    
+ -2.11777E+03  1.13952E-01  2.88406E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     271
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -2.11777E+03 kcal/mol
+ Total Potential Energy.......... -2.11777E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  1.35060E+02 kcal/mol
+ Angle Bending Energy............  5.92794E+02 kcal/mol
+ Torsion Angle Energy............  5.84121E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  1.41873E+03 kcal/mol
+ 1,4 Electrostatic Energy........  5.55713E+02 kcal/mol
+ Lennard Jones Energy............ -3.22479E+03 kcal/mol
+ Electrostatic Energy............ -2.21886E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:33
+nblist:WARNING process_pending_messages: The mmjobbe library is uninitialized
+Error: No path for jmonitor fifo
+%IMPACT-I (timit): Total CPU time =       7.69 seconds (   0.1 minutes)
+Total elapsed time = 8 seconds
+[running at reduced cpu priority]
+Beginning refinement level 2
+ ** Completed refinement level 2 and rmsd = 0.28382423886310004
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file proteinprep_1_ref3.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:36
+ Impact version 103132
+ mmshare version        66132
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Windows Host: WIN-H0DM3L6LN6B
+ Job Name: proteinprep_1
+ JobId:    WIN-H0DM3L6LN6B-0-678c7aec
+ SCHRODINGER  directory: C:\Program Files\Schrodinger2024-2
+ IMPACT_EXEC  directory: C:\Program Files\Schrodinger2024-2\impact-v10.3\bin\Windows-x64
+ MMSHARE_EXEC directory: C:\Program Files\Schrodinger2024-2\mmshare-v6.6\bin\Windows-x64
+
+ Clock-based global random seed:     1737260016
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  5355
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  1662116
+ E-pot        RMS grad     Max grad    
+ -2.15723E+03  1.50351E-01  2.51715E+00
+ Step number:         10         Non-bonded count:  1662116
+ -2.16264E+03  3.50848E-01  8.82485E+00
+ Step number:         20         Non-bonded count:  1659371
+ -2.17241E+03  3.13623E-01  6.08288E+00
+ Step number:         30         Non-bonded count:  1659423
+ -2.17998E+03  2.82862E-01  8.09953E+00
+ Step number:         40         Non-bonded count:  1658901
+ -2.18526E+03  2.41880E-01  6.30580E+00
+ Step number:         50         Non-bonded count:  1656298
+ -2.19056E+03  2.36981E-01  3.52217E+00
+ Step number:         60         Non-bonded count:  1657653
+ -2.19478E+03  2.05594E-01  3.80988E+00
+ Step number:         70         Non-bonded count:  1657293
+ -2.19762E+03  1.71164E-01  2.37947E+00
+ Step number:         80         Non-bonded count:  1657720
+ -2.20044E+03  1.64503E-01  4.97991E+00
+ Step number:         90         Non-bonded count:  1657857
+ -2.20274E+03  1.51354E-01  2.45355E+00
+ Step number:        100         Non-bonded count:  1657814
+ -2.20459E+03  1.38992E-01  2.14473E+00
+ Step number:        100         Non-bonded count:  1657317
+ E-pot        RMS grad     Max grad    
+ -2.20457E+03  1.39037E-01  2.14473E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     284
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -2.20457E+03 kcal/mol
+ Total Potential Energy.......... -2.20457E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  1.38178E+02 kcal/mol
+ Angle Bending Energy............  5.96088E+02 kcal/mol
+ Torsion Angle Energy............  5.55349E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  1.40561E+03 kcal/mol
+ 1,4 Electrostatic Energy........  5.53920E+02 kcal/mol
+ Lennard Jones Energy............ -3.27205E+03 kcal/mol
+ Electrostatic Energy............ -2.20276E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Sunday, January 19 2025, at 12:13:44
+nblist:WARNING process_pending_messages: The mmjobbe library is uninitialized
+Error: No path for jmonitor fifo
+%IMPACT-I (timit): Total CPU time =       7.95 seconds (   0.1 minutes)
+Total elapsed time = 8 seconds
+[running at reduced cpu priority]
+Beginning refinement level 3
+ ** Completed refinement level 3 and rmsd = 0.39687836825602063
+Refinement finished. Final level: 3
+The refined complex file is Clean_Up-impref-out.maegz
+[running at reduced cpu priority]
+Deleting waters...
+Deleting far waters...
+done deleting waters
+Number of output structures: 1
+Subjob completed successfully: proteinprep_1-001
+Number of successful preparations: 1
+Number of output structures: 1
+DONE. Output file: proteinprep_1-out.maegz

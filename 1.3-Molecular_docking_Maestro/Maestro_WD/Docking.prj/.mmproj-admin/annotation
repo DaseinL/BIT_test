@@ -1,0 +1,18 @@
+--- This project was created on Sun Jan 19 10:53:48 2025
+
+-----
+Sun Jan 19 11:13:35 2025
+Imported file:
+C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\8udf.pdb
+
+-----
+Sun Jan 19 12:47:40 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_8udf
+Job ID: WIN-H0DM3L6LN6B-0-678c83eb
+
+-----
+Sun Jan 19 12:51:12 2025
+Starting Ligand Docking
+Job name: glide-8udf_cognate
+Job ID: WIN-H0DM3L6LN6B-0-678c84bf

@@ -1,0 +1,79 @@
+######## begin of glide-8udf_cognate-0001.log #########
+Glide version 103132 (mmshare version 66132)
+mmshare         4f08ab3852
+glide-src       0c7906001c
+psp-src         ac42b27dd9
+macromodel-src  5e4a4d6d65
+epik-src        b46493d025
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : WIN-H0DM3L6LN6B-0-678c84c6
+Name           : glide-8udf_cognate-0001
+Program        : Glide
+Version        : 2024-2 build 132
+Host           : WIN-H0DM3L6LN6B
+Dir            : C:\Users\Clar\AppData\Local\Schrodinger\tmp\glide-8udf_cognate
+HostEntry      : localhost
+JobHost        : WIN-H0DM3L6LN6B
+JobDir         : C:\Users\Clar\AppData\Local\Schrodinger\tmp\glide-8udf_cognate-0001
+JobSchrodinger : C:\Program Files\Schrodinger2024-2
+Commandline    : C:\Program Files\Schrodinger2024-2\glide.exe -serial glide-8udf_cognate-0001.inp -RESTART -HOST localhost
+StartTime      : 2025-01-19-12:51:19
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 280, 27, 32, 31,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 72, 80, 80 ).
+
+ Metal   At. Num.  Eff. Charge  Category    x         y         z
+ 2337      11        1.00           1   -32.111    28.244    70.231
+  
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file 'C:\Program Files\Schrodinger2024-2\glide-v10.3\bin\Windows-x64\..\..\data\torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds           15
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+GlideScore(  -10.76)+Epik State Penalty(    0.20) =   -10.56 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (8UDF_prepared_dry_ligand)
+Best Emodel=  -128.86 E=   -77.99 Eint=     9.98 GlideScore=   -10.76
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           15
+ Using templates for ring conformations.
+GlideScore(   -8.45)+Epik State Penalty(    0.74) =    -7.71 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (8UDF_prepared_dry_ligand)
+Best Emodel=   -98.59 E=   -67.46 Eint=     9.58 GlideScore=    -8.45
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-8udf_cognate-0001_raw.maegz
+
+Exiting Glide
+Date: Sunday, January 19 2025, at 12:52:30 中国标准时间
+CPU time (s): 54.4 user, 7.6 system, 68.5 real
+Total elapsed time = 68 seconds (1 minutes, 8 seconds)
+[running at reduced cpu priority]
+######## end of glide-8udf_cognate-0001.log #########

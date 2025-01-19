@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+JobId          : WIN-H0DM3L6LN6B-0-678c7e8a
+Name           : ligprep_8udf
+Program        : LigPrep
+Version        : 2024-2 build 132
+Host           : WIN-H0DM3L6LN6B
+Dir            : C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\ligprep_8udf
+HostEntry      : localhost
+JobHost        : WIN-H0DM3L6LN6B
+JobDir         : C:\Users\Clar\AppData\Local\Schrodinger\tmp\ligprep_8udf
+JobSchrodinger : C:\Program Files\Schrodinger2024-2
+Commandline    : C:\Program Files\Schrodinger2024-2\ligprep.exe -inp C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\ligprep_8udf\ligprep_8udf.inp -NJOBS 1 -JOBNAME ligprep_8udf -HOST localhost:1 -DISP append -VIEWNAME ligprep_job -PROJ C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\Docking.prj
+StartTime      : 2025-01-19-12:24:44
+--------------------------------------------------------------------------------
+[running at reduced cpu priority]
+LigPrep (version 70132). Copyright Schrodinger, LLC. All rights reserved.
+
+LigPrep command:
+$SCHRODINGER/ligprep -ma 500 -bff 16 -epik -g -s 32 -imae ligprep_8udf.maegz -omae ligprep_8udf-out.maegz
+
+Processing steps:
+$DO.htreat -t All-None -a all -s -l 500 <infile.mae> <outfile.mae>
+$DO.desalter <infile.mae> <outfile.mae>
+$DO.neutralizer -m 500 <infile.mae> <outfile.mae>
+$DO.guard <infile.mae> <outfile.mae>
+$DO.epik.py -ph 7.0 -tn 8 -ma 500 -imae <infile.mae> -omae <outfile.mae>
+$DO.stereoizer -label_specified_chiralities -n 32 -g <infile.mae> <outfile.mae>
+$DO.cgx -optimize -ffld 16 -epsilon 10.0 <infile.mae> <outfile.mae>
+$DO.filterstereo -max_stereo 32 <infile.mae> <outfile.mae>
+
+DO=$SCHRODINGER\run python3 -m schrodinger.application.macromodel.packages.ligprep3
+
+# counts of output and dropped structures after processing steps
+# index  htreat  desalt  neutra   guard   epik   stereo    cgx   filter  title
+       1   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '8UDF_prepared_dry_ligand'
+
+# of processed structures in "ligprep_8udf-out.maegz" : 2
+# of dropped structures in "ligprep_8udf-dropped.maegz" : 0
+
+backend run time: 0 hours 0 minutes 4.453 seconds

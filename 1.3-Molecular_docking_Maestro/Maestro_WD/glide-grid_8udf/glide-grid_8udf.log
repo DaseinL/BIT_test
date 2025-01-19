@@ -1,0 +1,42 @@
+Glide version 103132 (mmshare version 66132)
+mmshare         4f08ab3852
+glide-src       0c7906001c
+psp-src         ac42b27dd9
+macromodel-src  5e4a4d6d65
+epik-src        b46493d025
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : WIN-H0DM3L6LN6B-0-678c83eb
+Name           : glide-grid_8udf
+Program        : Glide
+Version        : 2024-2 build 132
+Host           : WIN-H0DM3L6LN6B
+Dir            : C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\glide-grid_8udf
+HostEntry      : localhost
+JobHost        : WIN-H0DM3L6LN6B
+JobDir         : C:\Users\Clar\AppData\Local\Schrodinger\tmp\glide-grid_8udf
+JobSchrodinger : C:\Program Files\Schrodinger2024-2
+Commandline    : C:\Program Files\Schrodinger2024-2\glide.exe glide-grid_8udf.in -OVERWRITE -HOST localhost -PROJ C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\Docking.prj -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2025-01-19-12:47:40
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by   1.00000
+ Charge cutoff for polarity  0.25000
+Glide will write receptor constraints info to file: glide-grid_8udf.cons
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 280, 27, 32, 31,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 72, 80, 80 ).
+Creating output grid archive 'glide-grid_8udf.zip'
+
+Exiting Glide
+Date: Sunday, January 19 2025, at 12:48:02 中国标准时间
+CPU time (s): 15.0 user, 1.5 system, 17.1 real
+Total elapsed time = 17 seconds
+[running at reduced cpu priority]

@@ -1,0 +1,1 @@
+"${SCHRODINGER}/utilities/prepwizard" proteinprep_1.maegz proteinprep_1-out.maegz -fillsidechains -disulfides -assign_all_residues -rehtreat -max_states 1 -epik_pH 7.4 -epik_pHt 2.0 -antibody_cdr_scheme Kabat -samplewater -propka_pH 7.4 -f S-OPLS -rmsd 0.3 -watdist 5.0 -JOBNAME proteinprep_1 -HOST localhost:4

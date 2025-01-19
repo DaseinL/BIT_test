@@ -1,0 +1,81 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         4f08ab3852
+glide-src       0c7906001c
+psp-src         ac42b27dd9
+macromodel-src  5e4a4d6d65
+epik-src        b46493d025
+
+--------------------------------------------------------------------------------
+JobId          : WIN-H0DM3L6LN6B-0-678c84bf
+Name           : glide-8udf_cognate
+Program        : Glide
+Version        : 2024-2 build 132
+Host           : WIN-H0DM3L6LN6B
+Dir            : C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\glide-8udf_cognate
+HostEntry      : localhost
+JobHost        : WIN-H0DM3L6LN6B
+JobDir         : C:\Users\Clar\AppData\Local\Schrodinger\tmp\glide-8udf_cognate
+JobSchrodinger : C:\Program Files\Schrodinger2024-2
+Commandline    : C:\Program Files\Schrodinger2024-2\glide.exe glide-8udf_cognate.in -OVERWRITE -adjust -HOST localhost:1 -PROJ C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\Docking.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2025-01-19-12:51:12
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-8udf_cognate.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 2
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+Smart license checking: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  WIN-H0DM3L6LN6B-0-678c84c6 glide-8udf_cognate-0001 localhost [WIN-H0DM3L6LN6B]
+1 0 0 | finished  WIN-H0DM3L6LN6B-0-678c84c6 glide-8udf_cognate-0001 localhost [WIN-H0DM3L6LN6B]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 2 ligands done.
+Writing 2 poses to glide-8udf_cognate_pv.maegz; database holds 2 poses.
+Best docking score: -10.557
+Writing glide-8udf_cognate.csv
+Writing glide-8udf_cognate_skip.csv
+Combining log files to glide-8udf_cognate_subjobs.log
+Archiving subjob pose files in glide-8udf_cognate_subjob_poses.zip
+Archiving subjob input and log files in glide-8udf_cognate_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.0 s
+- running subjobs: 77.6 s
+- postprocessing: 0.1 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 1 minute and 2 seconds
+
+Finished at: Sun Jan 19 12:52:33 2025
+Total elapsed time for Glide script = 1 minute and 18 seconds
+[running at reduced cpu priority]

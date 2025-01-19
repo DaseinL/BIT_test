@@ -1,0 +1,4 @@
+FORCEFIELD   OPLS_2005
+GRIDFILE   C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\glide-grid_8udf\glide-grid_8udf.zip
+LIGANDFILE   C:\Users\Clar\Coding\BIT_test\1.3-Molecular_docking_Maestro\Maestro_WD\ligprep_8udf\ligprep_8udf-out.maegz
+PRECISION   SP
